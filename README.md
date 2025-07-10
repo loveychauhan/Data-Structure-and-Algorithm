@@ -3,9 +3,9 @@
 A curated collection of essential JavaScript implementations for common data structure and algorithm problems—perfect for interview prep, coding practice, or brushing up on core concepts.
 
 🚀 What's Inside.
-✅ Anagram Checker – Validate if two strings are anagrams
-🔢 Fibonacci Generator – Efficient recursive and iterative solutions
-🔁 Palindrome Number – Check if a number reads the same backward
+✅ Anagram Checker – Validate if two strings are anagrams.
+🔢 Fibonacci Generator – Efficient recursive and iterative solutions.
+🔁 Palindrome Number – Check if a number reads the same backward.
 🧠 More interview-style questions coming soon!
 
 🛠️ Tech Stack
