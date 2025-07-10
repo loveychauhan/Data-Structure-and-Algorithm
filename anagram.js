@@ -11,11 +11,18 @@ function anagram2(s, t) {
     obj1 = {}
     obj2 = {}
 
-    for (let i = 0; i <= s.length; i++) {
+    for (let i = 0; i < s.length; i++) {
 
         obj1[s[i]] = (obj1[s[i]] || 0) + 1
-    }
+        obj2[t[i]] = (obj2[t[i]] || 0) + 1
 
-    console.log(obj1)
-} 
-console.log(anagram2('anagamr', 'nagaram'))
+    }
+    console.log(obj1, obj2)
+    for (const keys in obj1) {
+        if (obj1[keys] !== obj2[keys]) {
+            return false
+        }
+    }
+    return true
+}
+console.log(anagram2('ab', 'bc'))
